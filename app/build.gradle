@@ -4,6 +4,10 @@ android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
 
+    repositories {
+        mavenCentral()
+    }
+
     defaultConfig {
         applicationId "com.mohammed.shameem.androidone"
         minSdkVersion 17
@@ -24,4 +28,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.android.support:design:23.3.0'
+    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
 }
